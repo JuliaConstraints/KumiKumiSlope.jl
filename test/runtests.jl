@@ -1,6 +1,9 @@
 using KumiKumiSlope
 using Test
 
+using KumiKumiSlope: Point, empty_points
+
 @testset "KumiKumiSlope.jl" begin
-    # Write your tests here.
+    include("parts.jl")
+    include("sets.jl")
 end
